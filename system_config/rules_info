@@ -1,0 +1,47 @@
+sudo suricata-update
+29/10/2026 -- 13:59:27 - <Info> -- Using data-directory /var/lib/suricata.
+29/10/2026 -- 13:59:27 - <Info> -- Using Suricata configuration /etc/suricata/suricata.yaml
+29/10/2026 -- 13:59:27 - <Info> -- Using /etc/suricata/rules for Suricata provided rules.
+29/10/2026 -- 13:59:28 - <Info> -- Found Suricata version 8.0.3 at /usr/bin/suricata.
+29/10/2026 -- 13:59:28 - <Info> -- Loading /etc/suricata/suricata.yaml
+29/10/2026 -- 13:59:28 - <Info> -- Disabling rules for protocol pgsql
+29/10/2026 -- 13:59:28 - <Info> -- Disabling rules for protocol modbus
+29/10/2026 -- 13:59:28 - <Info> -- Disabling rules for protocol dnp3
+29/10/2026 -- 13:59:28 - <Info> -- Disabling rules for protocol enip
+29/10/2026 -- 13:59:28 - <Info> -- No sources configured, will use Emerging Threats Open
+29/10/2026 -- 13:59:28 - <Info> -- Fetching https://rules.emergingthreats.net/open/suricata-8.0.3/emerging.rules.tar.gz.
+ 100% - 5643599/5643599
+29/10/2026 -- 13:59:28 - <Info> -- Done.
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/app-layer-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/decoder-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/dhcp-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/dnp3-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/dns-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/files.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/http2-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/http-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/ipsec-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/kerberos-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/modbus-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/mqtt-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/nfs-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/ntp-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/quic-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/rfb-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/smb-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/smtp-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/ssh-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/stream-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Loading distribution rule file /etc/suricata/rules/tls-events.rules
+29/10/2026 -- 13:59:28 - <Info> -- Ignoring file fa10d0a1bbba0bcad0c5fd9af3e6fc01/rules/emerging-deleted.rules
+29/10/2026 -- 13:59:30 - <Info> -- Loaded 69247 rules.
+29/10/2026 -- 13:59:30 - <Info> -- Disabled 15 rules.
+29/10/2026 -- 13:59:30 - <Info> -- Enabled 0 rules.
+29/10/2026 -- 13:59:30 - <Info> -- Modified 0 rules.
+29/10/2026 -- 13:59:30 - <Info> -- Dropped 0 rules.
+29/10/2026 -- 13:59:30 - <Info> -- Enabled 136 rules for flowbit dependencies.
+29/10/2026 -- 13:59:30 - <Info> -- Backing up current rules.
+29/10/2026 -- 13:59:30 - <Info> -- Writing rules to /var/lib/suricata/rules/suricata.rules: total: 69247; enabled: 53281; added: 69247; removed 0; modified: 0
+29/10/2026 -- 13:59:31 - <Info> -- Writing /var/lib/suricata/rules/classification.config
+29/10/2026 -- 13:59:31 - <Info> -- Testing with suricata -T.
+29/10/2026 -- 14:00:00 - <Info> -- Done.

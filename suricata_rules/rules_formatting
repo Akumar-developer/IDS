@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "Suricata rules format ......."
+echo "action protocol source_ip source_port direction dest_ip dest_port (options)"
+
+
+echo "action = consequences of the rules."
+echo "example : alert: Generates an alert log"
+echo "pass: Stops further inspection; ignores the traffic"
+echo "drop: Discards the packet immediately (IPS mode only)"
+echo "reject: Drops the packet and sends a reset/unreachable packet to the sender" 
+
+echo "direction : 
+	The directional flow operator of the network traffic. 
+• -> Unidirectional (source to destination)
+• <> Bidirectional (matches traffic moving either way)
+"
